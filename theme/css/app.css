@@ -1,0 +1,39 @@
+body{background:#a17917}
+.center{margin:0 auto;display:table}
+.tile{min-height:10em;color:white;margin-right:10px}
+.products.tile{background:url('http://lorempixel.com/100/75/')}
+nav a:focus{text-decoration:none !important}
+.text-justify{text-align:justify}
+.trans{-webkit-transition:all 500ms cubic-bezier(0.600,0,0.735,0.045);-webkit-transition:all 500ms cubic-bezier(0.600,-0.280,0.735,0.045);-moz-transition:all 500ms cubic-bezier(0.600,-0.280,0.735,0.045);-o-transition:all 500ms cubic-bezier(0.600,-0.280,0.735,0.045);transition:all 500ms cubic-bezier(0.600,-0.280,0.735,0.045);-webkit-transition-timing-function:cubic-bezier(0.600,0,0.735,0.045);-webkit-transition-timing-function:cubic-bezier(0.600,-0.280,0.735,0.045);-moz-transition-timing-function:cubic-bezier(0.600,-0.280,0.735,0.045);-o-transition-timing-function:cubic-bezier(0.600,-0.280,0.735,0.045);transition-timing-function:cubic-bezier(0.600,-0.280,0.735,0.045)}
+
+
+
+#home-page nav a{color:white !important}
+#home-page nav{padding-top:1em;background:#f4a62a;height:50%}
+#home-page nav ul li{padding:10px}
+#home-page .back-drop{height:50% !important}
+#home-page .back-drop h1{;margin:10% 0 !important}
+
+
+
+.product-tile{background:none repeat scroll 0 0 #ecf0f1;border:7px solid #a17918;border-radius:.8em;padding:0 !important;overflow:hidden}
+.product-tile .content{padding:1em}
+.product-tile .hover{position:absolute;top:300px;visibility:hidden;height:100%;padding:1em}
+.product-tile:hover .content{visibility:collapse}
+.product-tile:hover .hover{visibility:visible !important;top:20%;background:#f1c40f}
+
+.sub-prod{background:#ecf0f1;padding:10px;border:2px solid #f1c40f}
+.modal-header{background:none repeat scroll 0 0 #e67e22;color:white}
+.modal-dialog{width:90%}
+.modal.product .list-unstyled{float:left;margin-left:1em}
+.modal.product .label{border-bottom:6px solid #e67e22;border-radius:.25em;color:#fff;display:block;font-size:80%;font-weight:bold;line-height:1;padding:.5em .6em 10px;text-align:left;vertical-align:baseline;white-space:nowrap}
+
+
+
+.page{float:left;min-height:100%;box-shadow:2px 2px 28px 3px #e29c45;width:100%}
+.back-drop{padding:0 !important;background-image:url("http://lorempixel.com/960/400/");height:25%}
+.back-drop h1{color:white;margin:2% 0}
+.back-drop h1 small{color:white}
+
+
+
